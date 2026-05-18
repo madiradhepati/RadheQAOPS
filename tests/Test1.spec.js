@@ -26,7 +26,7 @@ test('@P1 E2E Automation', async ({ page }) => {
    await page.waitForLoadState('networkidle');
    await page.locator(".card-body b").first().waitFor();
    const titles = await page.locator(".card-body b").allTextContents();
-   console.log(titles); 
+   //console.log(titles); 
    const count = await products.count();
    for (let i = 0; i < count; ++i) {
       if (await products.nth(i).locator("b").textContent() === productName) {
