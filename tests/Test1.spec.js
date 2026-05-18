@@ -230,7 +230,7 @@ test('Login Test 4', async({browser})=>
         await Page.locator('.card-body').first().waitFor()
         const Products = await Page.locator('.card-body')
         const Count = await Products.count()
-        //console.log(Count)
+        console.log(Count)
         await Page.locator(".card-body b").allTextContents()
         console.log(await Page.locator(".card-body b").allTextContents())
         for(let i=0; i<Count; i++)
