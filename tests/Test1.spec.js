@@ -5,6 +5,8 @@ const {test,expect} = require('@playwright/test');
 //allure generate ./allure-results --clean
 //allure open ./allure-report
 //npm run BasicTests
+//export PLAYWRIGHT_SERVICE_URL=wss://westeurope.api.playwright.microsoft.com/playwrightworkspaces/1fc712f3-fdd9-4198-b867-f5033efde30e/browsers
+//TEST 
 
 
 
