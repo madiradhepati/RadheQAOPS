@@ -78,7 +78,7 @@ test('Hidden elements and Pop ups', async ({page}) => {
     const Newframe = page.frameLocator('#courses-iframe')
     await Newframe.locator("li a[href*='lifetime-access']:visible").click()
     const Text = await Newframe.locator('.header-text h2').textContent()
-    //console.log(Text)
+    console.log(Text)
     const Number = await Newframe.locator("[data-stop='257000']").textContent()
     //console.log(Number)
     console.log(Text.split(" ")[3])
