@@ -80,7 +80,7 @@ test('Hidden elements and Pop ups', async ({page}) => {
     const Text = await Newframe.locator('.header-text h2').textContent()
     console.log(Text)
     const Number = await Newframe.locator("[data-stop='257000']").textContent()
-    console.log(Number)
-    console.log(Text.split(" ")[3])
+    // console.log(Number)
+    // console.log(Text.split(" ")[3])
 
 })
